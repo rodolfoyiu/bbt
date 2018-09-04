@@ -2,7 +2,7 @@ body {
     background: url(https://images.pexels.com/photos/733852/pexels-photo-733852.jpeg) no-repeat center center;
     background-size: cover;
     background-position: center; 
-    padding-bottom: 20%
+    background-color:#F4F5F7;
 }
 
 body,
@@ -24,21 +24,29 @@ h1 {
                  0px 18px 23px rgba(0,0,0,0.1);*/
 }
 
-h3, p{
+h3, p {
     padding-left:10%;
 }
 
 .form-inline{
+    padding-left:11%;
+}
+
+.form-control{
+    padding-right:20%;
+}
+
+/*.form-inline, .form-control{
     padding-left: 11%;
     padding-right: 11%;
+    display: inline-block;
 
+}*/
+
+#subscribe-result{
+    padding-left:0px;
 }
 
-.btn.btn-primary{
-    background-color: #000000;
-    border-width: #000000
-
-}
 
 
 

@@ -26,14 +26,14 @@ function register($form) {
         console.log(data.msg)
         $('#mce-EMAIL').css('borderColor', '#ffffff')
         $('#subscribe-result').css('color', 'rgb(53, 114, 210)')
-        $('#subscribe-result').html('<p>Thank you for subscribing. We have sent you a confirmation email.</p>')
+        $('#subscribe-result').html('<p style="padding-left: 0px;">Thank you for subscribing. We have sent you a confirmation email.</p>')
         $('#mce-EMAIL').val('')
       } else {
         // Something went wrong, do something to notify the user.
         console.log(data.msg)
         $('#mce-EMAIL').css('borderColor', '#ff8282')
         $('#subscribe-result').css('color', '#ff8282')
-        $('#subscribe-result').html('<p>' + data.msg.substring(4) + '</p>')
+        $('#subscribe-result').html('<p style="padding-left: 0px;">' + data.msg.substring(4) + '</p>')
       }
     }
   })
